@@ -8,7 +8,7 @@ This project is made with **HTML, CSS, and JavaScript** and includes animations,
 ---
 
 ## 🚀 Live Demo  
-👉 [Click here to view the site]([https://sizanmini.github.io/forMUNONLY/)  
+👉 [Click here to view the site](https://sizanmini.github.io/forMUNONLY/)  
 
 ---
 
