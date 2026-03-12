@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Beautiful Memories ✨</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Quicksand:wght@300;400;500;600&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+min-height:100vh;
+background:linear-gradient(135deg,#ffd1dc,#e6e6fa,#ffefd5,#e6e6fa,#ffd1dc);
+background-size:400% 400%;
+animation:gradientFlow 15s ease infinite;
+font-family:'Quicksand',sans-serif;
+overflow-x:hidden;
+color:#4a4a4a;
+}
+
+@keyframes gradientFlow{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+/* floating hearts */
+
+.floating-hearts{
+position:fixed;
+width:100%;
+height:100%;
+pointer-events:none;
+z-index:1;
+}
+
+.heart{
+position:absolute;
+font-size:1.5rem;
+color:rgba(255,105,180,0.6);
+animation:floatHeart var(--float-duration) linear infinite;
+animation-delay:var(--delay);
+}
+
+@keyframes floatHeart{
+0%{transform:translate(0,100vh);}
+100%{transform:translate(var(--translate-x),-100vh);}
+}
+
+/* welcome */
+
+.welcome{
+text-align:center;
+padding:4rem 2rem;
+}
+
+.welcome h1{
+font-family:'Dancing Script',cursive;
+font-size:4rem;
+color:#ff69b4;
+}
+
+.welcome p{
+font-size:1.2rem;
+max-width:600px;
+margin:1.5rem auto;
+}
+
+/* memory cards */
+
+.memory-container{
+max-width:1200px;
+margin:auto;
+padding:2rem;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:2rem;
+}
+
+.memory-card{
+background:white;
+border-radius:20px;
+padding:1.5rem;
+box-shadow:0 10px 20px rgba(0,0,0,0.1);
+transition:.3s;
+}
+
+.memory-card:hover{
+transform:translateY(-10px);
+}
+
+.memory-img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:15px;
+margin-bottom:1rem;
+}
+
+.memory-date{
+font-family:'Dancing Script',cursive;
+color:#ff69b4;
+font-size:1.3rem;
+margin-bottom:.5rem;
+}
+
+.memory-caption{
+font-size:1rem;
+line-height:1.5;
+color:#666;
+}
+
+/* final message */
+
+.final-message{
+text-align:center;
+padding:4rem 2rem;
+background:rgba(255,255,255,0.4);
+margin-top:3rem;
+}
+
+.final-message h2{
+font-family:'Dancing Script',cursive;
+font-size:3rem;
+color:#ff69b4;
+margin-bottom:2rem;
+}
+
+.final-message p{
+font-size:1.2rem;
+max-width:800px;
+margin:auto;
+margin-bottom:2rem;
+line-height:1.8;
+}
+
+.goodbye-btn{
+display:inline-block;
+padding:1rem 2rem;
+font-size:1.2rem;
+background:linear-gradient(45deg,#ff69b4,#da70d6);
+color:white;
+border-radius:50px;
+text-decoration:none;
+box-shadow:0 5px 15px rgba(255,105,180,.4);
+}
+
+.goodbye-btn:hover{
+transform:translateY(-5px);
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="floating-hearts">
+<div class="heart" style="--float-duration:6s;--delay:0s;--translate-x:20px;">💝</div>
+<div class="heart" style="--float-duration:8s;--delay:1s;--translate-x:-30px;">💖</div>
+<div class="heart" style="--float-duration:7s;--delay:2s;--translate-x:40px;">💗</div>
+<div class="heart" style="--float-duration:9s;--delay:3s;--translate-x:-20px;">💓</div>
+<div class="heart" style="--float-duration:5s;--delay:4s;--translate-x:30px;">💕</div>
+</div>
+
+<section class="welcome">
+<h1>Our Beautiful Moments Together</h1>
+<p>Every moment spent with you has been magical. Let's cherish these precious memories ...</p>
+</section>
+
+<div class="memory-container">
+
+<div class="memory-card">
+<img src="./d1.jpg" class="memory-img">
+<div class="memory-date">Her Smile Says It All</div>
+<div class="memory-caption">
+You’re truly one of the sweetest girls I know, and I feel lucky to have a sis like you.💗
+</div>
+</div>
+
+<div class="memory-card">
+<img src="./d2.jpg" class="memory-img">
+<div class="memory-date">Together Vibes</div>
+<div class="memory-caption">
+May your journey ahead be filled with happiness, success, and endless smiles.💗
+</div>
+</div>
+
+<div class="memory-card">
+<img src="./d3.jpg" class="memory-img">
+<div class="memory-date">Pretty Soul</div>
+<div class="memory-caption">
+Keep being the amazing person you are—you make every moment brighter.🌸💗
+</div>
+</div>
+
+</div>
+
+<section class="final-message">
+
+<h2>Happy Birthday my bbg💫</h2>
+
+<p>
+Happy birthday mll, idek how to start ts but firstly happy birthday again and i hope that your day goes well and u enjoy itt.
+</p>
+
+<p>
+I ac idk how to start cuz no matter how many times i try to put my feelings into words, it jus never feels enough, there are soo muchh in my heart, so much i want to say to you but somehow it feels like those words are not enough.
+</p>
+
+<p>
+Its been 8 yrs, i cant believe that i met you and got so lucky to have u, your someone who is so much precious to me and ilysm even i cant express in just words.
+</p>
+
+<p>
+Your someone who changed my life for good, you stayed, u let me cry in your arms, hold you when no one else was there for me, u heard me laughing and weirdly but u never complained, u always just was there for me when i needed someone when i went through alot.
+</p>
+
+<p>
+Tysm for everything ml. The calls, the hangouts, the memories with you at lunch time, when we went out and our sleepover, the times we talked everything are always best times in my life. I hope in another lifetime it will be us again.
+</p>
+
+<p>
+I love you truely with all my heart, im sorry maybe i wasnt the bsf for you, ik i made alot of mistakes and hurted you alot but even after everything u still stayed with me. Honestly the thought of you not being a part of my life kills me ngl.
+</p>
+
+<p>
+I have like unlimited pages of a diary which is you, ur like ma personal diary w unlimited pages, i can share everything you without anyone knowing da things heh, all da times w u are da best and i got moreee things to say so keep waiting nga, n yea no matter how nice im ur still a bandor and no one can deny it tbh, schl khulle onk mair khabi bbg 👄👄 and ilysm my bgrill and yea once again happy birthday mommy, (wont forget about it at night btw) ❤️❤️
+</p>
+
+<a href="#" class="goodbye-btn">Until We Meet Again 💝</a>
+
+</section>
+
+</body>
+</html>
